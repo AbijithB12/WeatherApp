@@ -1,0 +1,27 @@
+*{
+    background-color: black;
+    color: white;
+}
+
+body {
+    padding: 100px;
+    margin: 100px;
+    background-color: rgb(116, 116, 236);
+    height: 150px;
+    width: min-content;
+    border-radius: 14px;
+}
+
+#country{
+    background-color: aliceblue;
+    border: 4px solid blueviolet;
+    border-radius: 184px;
+    padding: 13px;
+    color: black    ;
+}
+
+#country:hover{
+    shape-margin: 10px;
+    border-radius: 10px;
+    
+}
