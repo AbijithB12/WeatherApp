@@ -3,18 +3,38 @@
     <head>
         <title>WeatherApp</title>
         <meta charset="UTF-8">
-        <meta name="viewport" content="length=device-length,initial-scale=1.0">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
         <link rel="stylesheet" href="weather.css">
-        <script src="weather.js"></script>
+        
         
     </head>
     <body>
-        <input type="text" name="country" id="country">
-        <input type="button" value="">
-        <div>
-            <p>Degree °C</p>
-            <p>country</p>
+        <h1 id="Heading">WeatherApp</h1>
+        <div class="application">
+            <div class="search">
+                <input id="city" type="text" placeholder="enter city name" spellcheck="false">
+                <button><img src="./images/search.png"></button>
+            </div>
+            <div id="climate">
+                <img src="./images/drizzle.png" alt="">
+            </div>
+            <div>
+                <h1 class="temp">22 °C</h1>
+                <h2 class="city">New York</h2>
+            </div>
+            <div id="details">
+                <div class="col">
+                    <img src="./images/humidity.png" alt="humidity" id="humidity">
+                    <p>Humidity</p>
+                    <p class="humidity">50%</p>
+                </div>
+                <div class="col">
+                    <img src="./images/wind.png" alt="wind" id="windspeed">
+                    <p>Wind Speed</p>
+                    <p class="windspeed">25mph</p>
+                </div>
+            </div>
         </div>
-        
+        <script src="weather.js"></script>
     </body>
 </html>

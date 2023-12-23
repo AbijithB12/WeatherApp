@@ -1,27 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Actor&family=Caveat&family=Libre+Baskerville&family=Oswald:wght@500&family=Poppins:ital,wght@1,100&display=swap');
+
+
 *{
-    background-color: black;
-    color: white;
-}
-
-body {
-    padding: 100px;
-    margin: 100px;
-    background-color: rgb(116, 116, 236);
-    height: 150px;
-    width: min-content;
-    border-radius: 14px;
-}
-
-#country{
-    background-color: aliceblue;
-    border: 4px solid blueviolet;
-    border-radius: 184px;
-    padding: 13px;
-    color: black    ;
-}
-
-#country:hover{
-    shape-margin: 10px;
-    border-radius: 10px;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    padding: 0%;
+    margin: 0px;
     
 }
+h1,p,h2{
+    padding: 5px;
+    color: white;
+    /* text-align: center; */
+
+}
+#Heading{
+    background: linear-gradient(-181deg,#6B58F8,#ff3d3d)
+}
+
+body{
+    background-color: #222;
+    justify-content: center;
+    align-items: center;
+}
+
+.application{
+    background-size: 100rem;
+    display: grid;
+    margin: 7% 25%;
+    padding: 29px;
+    justify-content: center;
+    background: linear-gradient(45deg,red,blue);
+    border: 10px;
+    border-radius: 10px;
+    /* width: 30%; */
+    text-align: center;
+}
+
+input{
+    color: #222 ;
+    border:0.3rem solid blueviolet ;
+    border-radius: 30px;
+    padding: 10px;
+    margin-right: 1em;
+    font-weight: bold;
+    width:72%
+}
+
+button{
+    border-radius: 50%;
+    border: 0px;
+    width: 32px;
+    height: min-content;
+}
+.search{
+    /* display: flex; */
+img{
+    width: 16px;
+    padding: 5px;
+    border: 0px;
+    outline: 0px;
+}
+}
+
+
+#climate{   
+    img{
+        margin-top: 1em;
+            width: 9.5rem;
+}
+}
+
+#details{
+    display: flex;
+     padding: 10px;
+    justify-content: space-between;
+}
+
+.row{
+    /* display: flex; */
+
+}
+
+.col{   
+    padding: 10px;
+    margin-top: 10px;
+    margin-inline: 10px;
+    /* float: left; */
+    #humidity   {
+        /* margin-top: 10px; */
+
+    }
+    img{
+        height: 20%;
+    }
+}
+
